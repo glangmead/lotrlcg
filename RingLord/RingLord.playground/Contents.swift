@@ -367,4 +367,7 @@ sets.map {print($0)}
 //let scenarioDeckPaths = Path.glob("octgn_lotr_gamedatabase/Decks/Quests/*/*.o8d")
 //let scenarioDecks = scenarioDeckPaths.map {deckParser.parseFromPath($0.string)}
 //
-//let seastanCoreDeck = deckParser.parseFromPath(path: "/Users/glangmead/proj/RingLord/seastan-s-single-core-set-solo-2.0.o8d")
+let seastanCoreDeck = OCTGNDeckParser().parseFromPath(path: "/Users/glangmead/proj/lotrlcg/RingLord/seastan-s-single-core-set-solo-2.0.o8d")
+print(seastanCoreDeck)
+
+let aragorn = UIImage(contentsOfFile: "/Users/glangmead/proj/lotrlcg/RingLord/images/51223bd0-ffd1-11df-a976-0801200c9001.jpg")
