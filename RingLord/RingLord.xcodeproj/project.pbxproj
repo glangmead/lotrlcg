@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BA77D4325923DAC00F43EA7 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CFF2592397200F43EA7 /* Deck.swift */; };
-		9BA77D4425923DAC00F43EA7 /* OCTGNImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77D062592399000F43EA7 /* OCTGNImporter.swift */; };
-		9BA77D4525923DAC00F43EA7 /* CardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CF12592393200F43EA7 /* CardSet.swift */; };
-		9BA77D4625923DAC00F43EA7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CF82592394300F43EA7 /* Card.swift */; };
-		9BA77D5125923DC900F43EA7 /* libRingCards.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA77D3725923D9B00F43EA7 /* libRingCards.a */; };
+		9BCF1E4025A0B1C1004119F2 /* OCTGNImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77D062592399000F43EA7 /* OCTGNImporter.swift */; };
+		9BCF1E4625A0B1C1004119F2 /* OCTGNImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77D062592399000F43EA7 /* OCTGNImporter.swift */; };
+		9BCF1E4C25A0B1C9004119F2 /* CardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CF12592393200F43EA7 /* CardSet.swift */; };
+		9BCF1E4D25A0B1C9004119F2 /* CardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CF12592393200F43EA7 /* CardSet.swift */; };
+		9BCF1E5325A0B1CE004119F2 /* MemoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CF82592394300F43EA7 /* MemoryCard.swift */; };
+		9BCF1E5425A0B1CE004119F2 /* MemoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CF82592394300F43EA7 /* MemoryCard.swift */; };
+		9BCF1E5A25A0B1D2004119F2 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CFF2592397200F43EA7 /* Deck.swift */; };
+		9BCF1E5B25A0B1D2004119F2 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CFF2592397200F43EA7 /* Deck.swift */; };
+		9BCF1E8025A0CEC5004119F2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCF1E7F25A0CEC5004119F2 /* CloudKit.framework */; };
 		9BD07AA4258FB19900E9AC19 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD07AA3258FB19900E9AC19 /* Tests_iOS.swift */; };
 		9BD07AAF258FB19900E9AC19 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD07AAE258FB19900E9AC19 /* Tests_macOS.swift */; };
 		9BD07AB1258FB19900E9AC19 /* RingLord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BD07A85258FB19600E9AC19 /* RingLord.xcdatamodeld */; };
@@ -27,13 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9BA77D5225923DC900F43EA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9BD07A80258FB19600E9AC19 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9BA77D3625923D9B00F43EA7;
-			remoteInfo = RingCards;
-		};
 		9BD07AA0258FB19900E9AC19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BD07A80258FB19600E9AC19 /* Project object */;
@@ -50,24 +47,13 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		9BA77D3525923D9B00F43EA7 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		9BA77CF12592393200F43EA7 /* CardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSet.swift; sourceTree = "<group>"; };
-		9BA77CF82592394300F43EA7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9BA77CF82592394300F43EA7 /* MemoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCard.swift; sourceTree = "<group>"; };
 		9BA77CFF2592397200F43EA7 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		9BA77D062592399000F43EA7 /* OCTGNImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTGNImporter.swift; sourceTree = "<group>"; };
-		9BA77D3725923D9B00F43EA7 /* libRingCards.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRingCards.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCF1E7625A0CE8A004119F2 /* RingLordDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RingLordDebug.entitlements; sourceTree = "<group>"; };
+		9BCF1E7F25A0CEC5004119F2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		9BD07A86258FB19600E9AC19 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		9BD07A87258FB19600E9AC19 /* RingLordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingLordApp.swift; sourceTree = "<group>"; };
 		9BD07A88258FB19600E9AC19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,18 +74,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9BA77D3425923D9B00F43EA7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9BD07A8C258FB19900E9AC19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA77D5125923DC900F43EA7 /* libRingCards.a in Frameworks */,
+				9BCF1E8025A0CEC5004119F2 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,10 +109,6 @@
 		9BA77D3825923D9B00F43EA7 /* RingCards */ = {
 			isa = PBXGroup;
 			children = (
-				9BA77CF12592393200F43EA7 /* CardSet.swift */,
-				9BA77CF82592394300F43EA7 /* Card.swift */,
-				9BA77CFF2592397200F43EA7 /* Deck.swift */,
-				9BA77D062592399000F43EA7 /* OCTGNImporter.swift */,
 			);
 			path = RingCards;
 			sourceTree = "<group>";
@@ -141,6 +116,7 @@
 		9BD07A7F258FB19600E9AC19 = {
 			isa = PBXGroup;
 			children = (
+				9BCF1E7625A0CE8A004119F2 /* RingLordDebug.entitlements */,
 				9BD07ACD258FB22300E9AC19 /* RingLord.playground */,
 				9BD07A84258FB19600E9AC19 /* Shared */,
 				9BD07A91258FB19900E9AC19 /* iOS */,
@@ -161,6 +137,10 @@
 				9BD07A89258FB19600E9AC19 /* Persistence.swift */,
 				9BD07A8A258FB19900E9AC19 /* Assets.xcassets */,
 				9BD07A85258FB19600E9AC19 /* RingLord.xcdatamodeld */,
+				9BA77D062592399000F43EA7 /* OCTGNImporter.swift */,
+				9BA77CF12592393200F43EA7 /* CardSet.swift */,
+				9BA77CF82592394300F43EA7 /* MemoryCard.swift */,
+				9BA77CFF2592397200F43EA7 /* Deck.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -172,7 +152,6 @@
 				9BD07A97258FB19900E9AC19 /* RingLord.app */,
 				9BD07A9F258FB19900E9AC19 /* Tests iOS.xctest */,
 				9BD07AAA258FB19900E9AC19 /* Tests macOS.xctest */,
-				9BA77D3725923D9B00F43EA7 /* libRingCards.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,6 +194,7 @@
 		9BD07AD9258FB37900E9AC19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BCF1E7F25A0CEC5004119F2 /* CloudKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,23 +202,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BA77D3625923D9B00F43EA7 /* RingCards */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BA77D3B25923D9B00F43EA7 /* Build configuration list for PBXNativeTarget "RingCards" */;
-			buildPhases = (
-				9BA77D3325923D9B00F43EA7 /* Sources */,
-				9BA77D3425923D9B00F43EA7 /* Frameworks */,
-				9BA77D3525923D9B00F43EA7 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RingCards;
-			productName = RingCards;
-			productReference = 9BA77D3725923D9B00F43EA7 /* libRingCards.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		9BD07A8E258FB19900E9AC19 /* RingLord (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BD07ABD258FB19900E9AC19 /* Build configuration list for PBXNativeTarget "RingLord (iOS)" */;
@@ -250,7 +213,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				9BA77D5325923DC900F43EA7 /* PBXTargetDependency */,
 			);
 			name = "RingLord (iOS)";
 			packageProductDependencies = (
@@ -323,9 +285,6 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					9BA77D3625923D9B00F43EA7 = {
-						CreatedOnToolsVersion = 12.3;
-					};
 					9BD07A8E258FB19900E9AC19 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -361,7 +320,6 @@
 				9BD07A96258FB19900E9AC19 /* RingLord (macOS) */,
 				9BD07A9E258FB19900E9AC19 /* Tests iOS */,
 				9BD07AA9258FB19900E9AC19 /* Tests macOS */,
-				9BA77D3625923D9B00F43EA7 /* RingCards */,
 			);
 		};
 /* End PBXProject section */
@@ -400,17 +358,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BA77D3325923D9B00F43EA7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BA77D4425923DAC00F43EA7 /* OCTGNImporter.swift in Sources */,
-				9BA77D4325923DAC00F43EA7 /* Deck.swift in Sources */,
-				9BA77D4625923DAC00F43EA7 /* Card.swift in Sources */,
-				9BA77D4525923DAC00F43EA7 /* CardSet.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9BD07A8B258FB19900E9AC19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,6 +365,10 @@
 				9BD07AB3258FB19900E9AC19 /* RingLordApp.swift in Sources */,
 				9BD07AB7258FB19900E9AC19 /* Persistence.swift in Sources */,
 				9BD07AB1258FB19900E9AC19 /* RingLord.xcdatamodeld in Sources */,
+				9BCF1E5325A0B1CE004119F2 /* MemoryCard.swift in Sources */,
+				9BCF1E5A25A0B1D2004119F2 /* Deck.swift in Sources */,
+				9BCF1E4025A0B1C1004119F2 /* OCTGNImporter.swift in Sources */,
+				9BCF1E4C25A0B1C9004119F2 /* CardSet.swift in Sources */,
 				9BD07AB5258FB19900E9AC19 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +380,10 @@
 				9BD07AB4258FB19900E9AC19 /* RingLordApp.swift in Sources */,
 				9BD07AB8258FB19900E9AC19 /* Persistence.swift in Sources */,
 				9BD07AB2258FB19900E9AC19 /* RingLord.xcdatamodeld in Sources */,
+				9BCF1E5425A0B1CE004119F2 /* MemoryCard.swift in Sources */,
+				9BCF1E5B25A0B1D2004119F2 /* Deck.swift in Sources */,
+				9BCF1E4625A0B1C1004119F2 /* OCTGNImporter.swift in Sources */,
+				9BCF1E4D25A0B1C9004119F2 /* CardSet.swift in Sources */,
 				9BD07AB6258FB19900E9AC19 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,11 +407,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9BA77D5325923DC900F43EA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9BA77D3625923D9B00F43EA7 /* RingCards */;
-			targetProxy = 9BA77D5225923DC900F43EA7 /* PBXContainerItemProxy */;
-		};
 		9BD07AA1258FB19900E9AC19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9BD07A8E258FB19900E9AC19 /* RingLord (iOS) */;
@@ -470,37 +420,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9BA77D3C25923D9B00F43EA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28K28PQK98;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9BA77D3D25923D9B00F43EA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28K28PQK98;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		9BD07ABB258FB19900E9AC19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -617,8 +536,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RingLordDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28K28PQK98;
+				DEVELOPMENT_TEAM = 5Y5NG75847;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -626,7 +546,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ringlord.RingLord;
+				PRODUCT_BUNDLE_IDENTIFIER = com.langmead.CardPlayer;
 				PRODUCT_NAME = RingLord;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -797,15 +717,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BA77D3B25923D9B00F43EA7 /* Build configuration list for PBXNativeTarget "RingCards" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BA77D3C25923D9B00F43EA7 /* Debug */,
-				9BA77D3D25923D9B00F43EA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9BD07A83258FB19600E9AC19 /* Build configuration list for PBXProject "RingLord" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import CoreData
 
 @main
 struct RingLordApp: App {
     let persistenceController = PersistenceController.shared
+    
 
     var body: some Scene {
         WindowGroup {
@@ -18,3 +20,14 @@ struct RingLordApp: App {
         }
     }
 }
+
+//struct BackgroundManagedObjectContextKey: EnvironmentKey {
+//    static var defaultValue: NSManagedObjectContext? = nil
+//}
+//
+//extension EnvironmentValues {
+//    var backgroundManagedObjectContext: NSManagedObjectContext? {
+//        get { self[BackgroundManagedObjectContextKey.self] }
+//        set { self[BackgroundManagedObjectContextKey.self] = newValue }
+//    }
+//}

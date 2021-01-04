@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Card: Codable, Identifiable, CustomStringConvertible, CustomPlaygroundDisplayConvertible {
+public struct MemoryCard: Identifiable, CustomStringConvertible, CustomPlaygroundDisplayConvertible {
     public let id: String
     public let name: String
     public let number: Int?
@@ -29,9 +29,9 @@ public struct Card: Codable, Identifiable, CustomStringConvertible, CustomPlaygr
     public var playgroundDescription: Any { return description }
 }
 
-public struct CardCopies: Codable, CustomStringConvertible, CustomPlaygroundDisplayConvertible {
+public struct CardCopies: CustomStringConvertible, CustomPlaygroundDisplayConvertible {
     public let count: Int
-    public let card: Card
+    public let card: MemoryCard
     public var description: String {
         return "\(count)x \(card)"
     }

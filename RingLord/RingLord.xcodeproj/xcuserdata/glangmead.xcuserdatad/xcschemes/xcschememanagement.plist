@@ -7,7 +7,7 @@
 		<key>RingCards.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>RingLord (Playground) 1.xcscheme</key>
 		<dict>
@@ -33,12 +33,12 @@
 		<key>RingLord (iOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>RingLord (macOS).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Spectre (Playground) 1.xcscheme</key>
 		<dict>
