@@ -16,6 +16,8 @@
 		9BCF1E5A25A0B1D2004119F2 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CFF2592397200F43EA7 /* Deck.swift */; };
 		9BCF1E5B25A0B1D2004119F2 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA77CFF2592397200F43EA7 /* Deck.swift */; };
 		9BCF1E8025A0CEC5004119F2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCF1E7F25A0CEC5004119F2 /* CloudKit.framework */; };
+		9BCF1E8625B6119B004119F2 /* RingsDB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF1E8525B6119B004119F2 /* RingsDB.ttf */; };
+		9BCF1E8725B6119B004119F2 /* RingsDB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF1E8525B6119B004119F2 /* RingsDB.ttf */; };
 		9BD07AA4258FB19900E9AC19 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD07AA3258FB19900E9AC19 /* Tests_iOS.swift */; };
 		9BD07AAF258FB19900E9AC19 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD07AAE258FB19900E9AC19 /* Tests_macOS.swift */; };
 		9BD07AB1258FB19900E9AC19 /* RingLord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BD07A85258FB19600E9AC19 /* RingLord.xcdatamodeld */; };
@@ -54,6 +56,7 @@
 		9BA77D062592399000F43EA7 /* OCTGNImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTGNImporter.swift; sourceTree = "<group>"; };
 		9BCF1E7625A0CE8A004119F2 /* RingLordDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RingLordDebug.entitlements; sourceTree = "<group>"; };
 		9BCF1E7F25A0CEC5004119F2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		9BCF1E8525B6119B004119F2 /* RingsDB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RingsDB.ttf; sourceTree = "<group>"; };
 		9BD07A86258FB19600E9AC19 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		9BD07A87258FB19600E9AC19 /* RingLordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingLordApp.swift; sourceTree = "<group>"; };
 		9BD07A88258FB19600E9AC19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +139,7 @@
 				9BD07A88258FB19600E9AC19 /* ContentView.swift */,
 				9BD07A89258FB19600E9AC19 /* Persistence.swift */,
 				9BD07A8A258FB19900E9AC19 /* Assets.xcassets */,
+				9BCF1E8525B6119B004119F2 /* RingsDB.ttf */,
 				9BD07A85258FB19600E9AC19 /* RingLord.xcdatamodeld */,
 				9BA77D062592399000F43EA7 /* OCTGNImporter.swift */,
 				9BA77CF12592393200F43EA7 /* CardSet.swift */,
@@ -329,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCF1E8625B6119B004119F2 /* RingsDB.ttf in Resources */,
 				9BD07AB9258FB19900E9AC19 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCF1E8725B6119B004119F2 /* RingsDB.ttf in Resources */,
 				9BD07ABA258FB19900E9AC19 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

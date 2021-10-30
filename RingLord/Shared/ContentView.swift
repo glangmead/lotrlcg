@@ -18,17 +18,19 @@ struct CardView: View, Identifiable {
                 if let imgdata = card.image1 {
                     if let img = UIImage(data: imgdata) {
                         Image(uiImage: img)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
                     }
                 }
-                Text(card.name!)
+                Text(card.name!).font(Font.custom("RingsDB", size: 20))
                 HStack {
-                    Text((card.sphere ?? ""))
-                    Text((card.type ?? "") + ".")
+                    Text((card.sphere ?? "")).font(Font.custom("RingsDB", size: 20))
+                    Text((card.type ?? "") + ".").font(Font.custom("RingsDB", size: 20))
                 }
-                Text((card.traits ?? ""))
-                Text("\(card.cost ?? "")/\(card.willpower ?? "")/\(card.attack ?? "")/\(card.defense ?? "")/\(card.health ?? "")")
-                Text(card.keywords ?? "")
-                Text(card.text ?? "").fixedSize(horizontal: false, vertical: true).padding(20)
+                Text((card.traits ?? "")).font(Font.custom("RingsDB", size: 20))
+                Text("\(card.cost ?? "")/\(card.willpower ?? "")/\(card.attack ?? "")/\(card.defense ?? "")/\(card.health ?? "")").font(Font.custom("RingsDB", size: 20))
+                Text(card.keywords ?? "").font(Font.custom("RingsDB", size: 20))
+                Text(card.text ?? "").fixedSize(horizontal: false, vertical: true).padding(20).font(Font.custom("RingsDB", size: 20))
                 Spacer()
             }
         }.navigationBarTitle(card.name!)
