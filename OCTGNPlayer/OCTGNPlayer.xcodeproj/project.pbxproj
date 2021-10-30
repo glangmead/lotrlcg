@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC925F2EB08415474C7B8AB /* Pods_OCTGNPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80AFAE426B07C65CC936FA6 /* Pods_OCTGNPlayer.framework */; };
+		9B4A2F12224D1C0000890AB8 /* NodeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A2F11224D1C0000890AB8 /* NodeButton.swift */; };
+		9BFBB0B72219E0CC004E4E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0B62219E0CC004E4E73 /* AppDelegate.swift */; };
+		9BFBB0B92219E0CC004E4E73 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0B82219E0CC004E4E73 /* DocumentBrowserViewController.swift */; };
+		9BFBB0BB2219E0CC004E4E73 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0BA2219E0CC004E4E73 /* DocumentViewController.swift */; };
+		9BFBB0BD2219E0CC004E4E73 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0BC2219E0CC004E4E73 /* Document.swift */; };
+		9BFBB0C22219E0CD004E4E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBB0C12219E0CD004E4E73 /* Assets.xcassets */; };
+		9BFBB0D02219E17C004E4E73 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0CC2219E17C004E4E73 /* Deck.swift */; };
+		9BFBB0D12219E17C004E4E73 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0CD2219E17C004E4E73 /* Table.swift */; };
+		9BFBB0D22219E17C004E4E73 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0CE2219E17C004E4E73 /* Card.swift */; };
+		9BFBB0D32219E17C004E4E73 /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0CF2219E17C004E4E73 /* Serialization.swift */; };
+		9BFBB0D52219FBF8004E4E73 /* TextureDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0D42219FBF8004E4E73 /* TextureDB.swift */; };
+		9BFBB0D7221ADD03004E4E73 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBB0D6221ADD03004E4E73 /* plus.png */; };
+		9BFBB0DA221D7FE7004E4E73 /* TableScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0D9221D7FE7004E4E73 /* TableScene.swift */; };
+		9BFBB0DC221D8483004E4E73 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBB0DB221D8483004E4E73 /* background.jpg */; };
+		9BFBB0DE22218009004E4E73 /* CardNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0DD22218009004E4E73 /* CardNode.swift */; };
+		9BFBB0E02221801E004E4E73 /* DeckNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0DF2221801E004E4E73 /* DeckNode.swift */; };
+		9BFBB0E222241FD4004E4E73 /* CardlikeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0E122241FD4004E4E73 /* CardlikeNode.swift */; };
+		9BFBB0E4222B13CD004E4E73 /* CGSize+AspectFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBB0E3222B13CD004E4E73 /* CGSize+AspectFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84295CCB660B2F0A821D9CE1 /* Pods-OCTGNPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTGNPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTGNPlayer/Pods-OCTGNPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		99920CB705EB3D9FCD85A79E /* Pods-OCTGNPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTGNPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTGNPlayer/Pods-OCTGNPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		9B4A2F11224D1C0000890AB8 /* NodeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeButton.swift; sourceTree = "<group>"; };
+		9BFBB0B32219E0CC004E4E73 /* OCTGNPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTGNPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFBB0B62219E0CC004E4E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BFBB0B82219E0CC004E4E73 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
+		9BFBB0BA2219E0CC004E4E73 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		9BFBB0BC2219E0CC004E4E73 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		9BFBB0C12219E0CD004E4E73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BFBB0C62219E0CD004E4E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFBB0CC2219E17C004E4E73 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		9BFBB0CD2219E17C004E4E73 /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		9BFBB0CE2219E17C004E4E73 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9BFBB0CF2219E17C004E4E73 /* Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serialization.swift; sourceTree = "<group>"; };
+		9BFBB0D42219FBF8004E4E73 /* TextureDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureDB.swift; sourceTree = "<group>"; };
+		9BFBB0D6221ADD03004E4E73 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		9BFBB0D8221B05AD004E4E73 /* OCTGNPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OCTGNPlayer.entitlements; sourceTree = "<group>"; };
+		9BFBB0D9221D7FE7004E4E73 /* TableScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScene.swift; sourceTree = "<group>"; };
+		9BFBB0DB221D8483004E4E73 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		9BFBB0DD22218009004E4E73 /* CardNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNode.swift; sourceTree = "<group>"; };
+		9BFBB0DF2221801E004E4E73 /* DeckNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckNode.swift; sourceTree = "<group>"; };
+		9BFBB0E122241FD4004E4E73 /* CardlikeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardlikeNode.swift; sourceTree = "<group>"; };
+		9BFBB0E3222B13CD004E4E73 /* CGSize+AspectFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+AspectFunctions.swift"; sourceTree = "<group>"; };
+		D80AFAE426B07C65CC936FA6 /* Pods_OCTGNPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCTGNPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BFBB0B02219E0CC004E4E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC925F2EB08415474C7B8AB /* Pods_OCTGNPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110F221E46DA0DCF53C63D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84295CCB660B2F0A821D9CE1 /* Pods-OCTGNPlayer.debug.xcconfig */,
+				99920CB705EB3D9FCD85A79E /* Pods-OCTGNPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BFBB0AA2219E0CC004E4E73 = {
+			isa = PBXGroup;
+			children = (
+				9BFBB0B52219E0CC004E4E73 /* OCTGNPlayer */,
+				9BFBB0B42219E0CC004E4E73 /* Products */,
+				110F221E46DA0DCF53C63D39 /* Pods */,
+				D645FDD8606A993B32EB1AE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BFBB0B42219E0CC004E4E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBB0B32219E0CC004E4E73 /* OCTGNPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BFBB0B52219E0CC004E4E73 /* OCTGNPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBB0D8221B05AD004E4E73 /* OCTGNPlayer.entitlements */,
+				9BFBB0B62219E0CC004E4E73 /* AppDelegate.swift */,
+				9BFBB0B82219E0CC004E4E73 /* DocumentBrowserViewController.swift */,
+				9BFBB0BA2219E0CC004E4E73 /* DocumentViewController.swift */,
+				9BFBB0BC2219E0CC004E4E73 /* Document.swift */,
+				9BFBB0C12219E0CD004E4E73 /* Assets.xcassets */,
+				9BFBB0C62219E0CD004E4E73 /* Info.plist */,
+				9BFBB0CE2219E17C004E4E73 /* Card.swift */,
+				9BFBB0DD22218009004E4E73 /* CardNode.swift */,
+				9BFBB0E122241FD4004E4E73 /* CardlikeNode.swift */,
+				9BFBB0CC2219E17C004E4E73 /* Deck.swift */,
+				9BFBB0DF2221801E004E4E73 /* DeckNode.swift */,
+				9BFBB0CF2219E17C004E4E73 /* Serialization.swift */,
+				9BFBB0CD2219E17C004E4E73 /* Table.swift */,
+				9BFBB0D9221D7FE7004E4E73 /* TableScene.swift */,
+				9BFBB0D42219FBF8004E4E73 /* TextureDB.swift */,
+				9BFBB0D6221ADD03004E4E73 /* plus.png */,
+				9BFBB0DB221D8483004E4E73 /* background.jpg */,
+				9BFBB0E3222B13CD004E4E73 /* CGSize+AspectFunctions.swift */,
+				9B4A2F11224D1C0000890AB8 /* NodeButton.swift */,
+			);
+			path = OCTGNPlayer;
+			sourceTree = "<group>";
+		};
+		D645FDD8606A993B32EB1AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80AFAE426B07C65CC936FA6 /* Pods_OCTGNPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BFBB0B22219E0CC004E4E73 /* OCTGNPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFBB0C92219E0CD004E4E73 /* Build configuration list for PBXNativeTarget "OCTGNPlayer" */;
+			buildPhases = (
+				9CEF1A6753F8E3B7D16A7CEB /* [CP] Check Pods Manifest.lock */,
+				9BFBB0AF2219E0CC004E4E73 /* Sources */,
+				9BFBB0B02219E0CC004E4E73 /* Frameworks */,
+				9BFBB0B12219E0CC004E4E73 /* Resources */,
+				77123373F7A9187996EBD5E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCTGNPlayer;
+			productName = OCTGNPlayer;
+			productReference = 9BFBB0B32219E0CC004E4E73 /* OCTGNPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BFBB0AB2219E0CC004E4E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Greg Langmead";
+				TargetAttributes = {
+					9BFBB0B22219E0CC004E4E73 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9BFBB0AE2219E0CC004E4E73 /* Build configuration list for PBXProject "OCTGNPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BFBB0AA2219E0CC004E4E73;
+			productRefGroup = 9BFBB0B42219E0CC004E4E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFBB0B22219E0CC004E4E73 /* OCTGNPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BFBB0B12219E0CC004E4E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFBB0DC221D8483004E4E73 /* background.jpg in Resources */,
+				9BFBB0D7221ADD03004E4E73 /* plus.png in Resources */,
+				9BFBB0C22219E0CD004E4E73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77123373F7A9187996EBD5E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OCTGNPlayer/Pods-OCTGNPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FileBrowser/FileBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
+				"${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTGNPlayer/Pods-OCTGNPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CEF1A6753F8E3B7D16A7CEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCTGNPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BFBB0AF2219E0CC004E4E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFBB0D12219E17C004E4E73 /* Table.swift in Sources */,
+				9BFBB0BD2219E0CC004E4E73 /* Document.swift in Sources */,
+				9BFBB0D22219E17C004E4E73 /* Card.swift in Sources */,
+				9BFBB0DA221D7FE7004E4E73 /* TableScene.swift in Sources */,
+				9BFBB0BB2219E0CC004E4E73 /* DocumentViewController.swift in Sources */,
+				9BFBB0E222241FD4004E4E73 /* CardlikeNode.swift in Sources */,
+				9BFBB0E4222B13CD004E4E73 /* CGSize+AspectFunctions.swift in Sources */,
+				9BFBB0D32219E17C004E4E73 /* Serialization.swift in Sources */,
+				9B4A2F12224D1C0000890AB8 /* NodeButton.swift in Sources */,
+				9BFBB0DE22218009004E4E73 /* CardNode.swift in Sources */,
+				9BFBB0D02219E17C004E4E73 /* Deck.swift in Sources */,
+				9BFBB0B92219E0CC004E4E73 /* DocumentBrowserViewController.swift in Sources */,
+				9BFBB0D52219FBF8004E4E73 /* TextureDB.swift in Sources */,
+				9BFBB0E02221801E004E4E73 /* DeckNode.swift in Sources */,
+				9BFBB0B72219E0CC004E4E73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BFBB0C72219E0CD004E4E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BFBB0C82219E0CD004E4E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BFBB0CA2219E0CD004E4E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84295CCB660B2F0A821D9CE1 /* Pods-OCTGNPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OCTGNPlayer/OCTGNPlayer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y5NG75847;
+				INFOPLIST_FILE = OCTGNPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.langmead.CardPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BFBB0CB2219E0CD004E4E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99920CB705EB3D9FCD85A79E /* Pods-OCTGNPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OCTGNPlayer/OCTGNPlayer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y5NG75847;
+				INFOPLIST_FILE = OCTGNPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.langmead.CardPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BFBB0AE2219E0CC004E4E73 /* Build configuration list for PBXProject "OCTGNPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFBB0C72219E0CD004E4E73 /* Debug */,
+				9BFBB0C82219E0CD004E4E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFBB0C92219E0CD004E4E73 /* Build configuration list for PBXNativeTarget "OCTGNPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFBB0CA2219E0CD004E4E73 /* Debug */,
+				9BFBB0CB2219E0CD004E4E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BFBB0AB2219E0CC004E4E73 /* Project object */;
+}
