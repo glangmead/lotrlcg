@@ -1,6 +1,9 @@
 # lotrlcg
 Tools to help play The Lord of the Rings LCG digitally
 
+*** DEPRECATED ***
+You don't really need any of the below tools. You can now play the LotR LCG digitally in your browser at https://www.dragncards.com/. It even has a touch mode for tablets!
+
 * RingLord: An Xcode project for importing the OCTGN plugin data into an app
 
 * hallofbeorn: This directory contains instructions and scripts for crawling data and images from hallofbeorn.com and making CardWarden boxes to hold whatever sets you want
