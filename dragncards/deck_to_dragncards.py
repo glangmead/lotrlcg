@@ -11,7 +11,6 @@ import unidecode
 parser = argparse.ArgumentParser(description='Build a DragnCards First Age file to import.')
 parser.add_argument('--deck', type=str, help='a player or scenario deck to convert')
 parser.add_argument('--dragncards_db', type=str, help='full cardDB from DragnCards github')
-parser.add_argument('--beorn_urls', type=str, help='tsv file with one Beorn URL per line')
 parser.add_argument('--out', type=str, help='dragncard txt (secretly json) output')
 args = parser.parse_args()
 
@@ -211,20 +210,6 @@ MANUAL_ASSIGNED_IMAGES = {
 # dragn_db has keys that are card UUIDs
 with open(args.dragncards_db, encoding='utf-8') as db:
     dragn_db=json.load(db)
-
-# read a set of beorn URLs
-beorn_urls = set()
-beorn_url_by_ascii_name = {}
-beorn_url_by_utf_name = {}
-with open(args.beorn_urls, encoding='utf-8') as beorn:
-    for line in beorn:
-        url = line.rstrip()
-        utf_name = html.unescape(url.split('/')[-1]).replace('.jpg', '')
-        #print(utf_name)
-        ascii_name = utf_name.replace('-', ' ')
-        beorn_urls.add(url)
-        beorn_url_by_ascii_name[ascii_name] = url
-        beorn_url_by_utf_name[utf_name] = url
 
 # read the dragncards database
 dragncards_d = {}

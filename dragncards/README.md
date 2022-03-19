@@ -10,9 +10,15 @@ The site also contains the python script I used to generate these text files, wi
 
 # To generate similar DragnCards sets of your own
 
-1. Download the [master json card database](https://raw.githubusercontent.com/seastan/DragnCards/development/frontend/src/cardDB/cardDB.json)
+To make a .txt you run something like:
 
-2. Obtain a player deck in o8d format, perhaps by hand-editing an o8d like I did from these:
+```
+python deck_to_dragncards.py --dragncards_db dragn_cardDB.json --deck threes-company.o8d --out threes-company.mydragn.txt
+```
+
+To get `dragn_cardDB.json`, Download the [master json card database](https://raw.githubusercontent.com/seastan/DragnCards/development/frontend/src/cardDB/cardDB.json)
+
+To obtain a player deck in o8d format, I hand-edited an o8d using these informal listings:
 
   * https://talesfromthecards.wordpress.com/2014/07/01/first-age-deck-threes-company/
   * https://talesfromthecards.wordpress.com/2014/07/21/first-age-strength-of-will/
@@ -20,13 +26,15 @@ The site also contains the python script I used to generate these text files, wi
   * https://talesfromthecards.wordpress.com/2016/03/31/first-age-mustering-the-edain/
   * https://talesfromthecards.wordpress.com/2014/07/01/first-age-deck-threes-company/
 
-Or obtain an encounter deck like these that I found:
+The encounter .o8d decks come from [the OCTGN plugin repo](https://github.com/seastan/Lord-of-the-Rings/tree/master/o8g/Decks/Custom).
 
-# Obtaining image URLs from Hall of Beorn
+The output will only contain images for First Age cards, on top of whatever's in the live DragnCards built-in database. I obtained the First Age image URLs with the crawling technique below, and then hard-coded those into the script.
+
+# Crawling Hall of Beorn for image URLs
 
 There are cards that have images on [Hall of Beorn](https://hallofbeorn.com) that are not already in DragnCards. In that case, you can use some simple scraping logic to get S3 URLs to those images.
 
-1. Crawl hallofbeorn.com (politely) with a command like
+First crawl hallofbeorn.com (politely) with a command like
 
 ```
 wget -N --wait=1 --random-wait -r -l 1 -U Mozilla http://hallofbeorn.com/LotR/Products/First-Age
