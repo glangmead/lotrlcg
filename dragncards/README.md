@@ -13,7 +13,7 @@ The site also contains the python script I used to generate these text files, wi
 To make a .txt you run something like:
 
 ```
-python deck_to_dragncards.py --dragncards_db dragn_cardDB.json --deck threes-company.o8d --out threes-company.mydragn.txt
+python deck_to_dragncards.py --dragncards_db cardDB.json --deck threes-company.o8d --out threes-company.mydragn.txt
 ```
 
 To get `dragn_cardDB.json`, Download the [master json card database](https://raw.githubusercontent.com/seastan/DragnCards/development/frontend/src/cardDB/cardDB.json)
