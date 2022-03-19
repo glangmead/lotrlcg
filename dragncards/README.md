@@ -22,29 +22,18 @@ The site also contains the python script I used to generate these text files, wi
 
 Or obtain an encounter deck like these that I found:
 
-# Dragncards table export
-
-list of dicts:
-    cardRow:
-        data from cardDB (sides, cardsetid, etc.)
-        sides is a dictionary
-        sides["A"] needs also a "customimgurl" compared to what's in the cardDB
-        deckgroupid (inherent to the card type -- where it belongs when it's dealt into the game)
-        discardgroupid (inherent to the card type -- where it belongs when it's dealt into the game)
-    quantity
-    groupId (where it is at the moment)
-
-values for deckgroupid: player1Deck, player2Deck, sharedEncounterDeck, sharedQuestDeck
-values for discardgroupid: player1Discard, player2Discard, sharedEncounterDiscard, sharedQuestDiscard
-values for groupId: player1Deck, player1Hand, player1Play1, player2Deck, player2Hand, player2Play1, sharedEncounterDeck, sharedMainQuest, sharedQuestDeck, sharedStaging
-
-
 # Obtaining image URLs from Hall of Beorn
 
 There are cards that have images on [Hall of Beorn](https://hallofbeorn.com) that are not already in DragnCards. In that case, you can use some simple scraping logic to get S3 URLs to those images.
 
-crawl hallofbeorn.com
+1. Crawl hallofbeorn.com (politely) with a command like
 
 ```
-ack -hor 'https?://s3[^"]+' hallofbeorn.com | sort -u | ack "/First-Age" | pbcopy
+wget -N --wait=1 --random-wait -r -l 1 -U Mozilla http://hallofbeorn.com/LotR/Products/First-Age
+```
+
+and then grep out all the image URLs with something like
+
+```
+ack -hor 'https?://s3[^"]+' hallofbeorn.com | sort -u | ack "/First-Age"
 ```
