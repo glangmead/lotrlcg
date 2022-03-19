@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="a21af4e8-be4b-4cda-a6b6-534f9717391f" sleeveid="0">
+  <section name="Quest" shared="True" />
+  <section name="Encounter" shared="True" />
+  <section name="Setup" shared="True" />
+  <section name="Hero" shared="False">
+    <card qty="1" id="267a3597-c2d2-4de0-8121-4c3e71678b2f">Luthien</card>
+    <card qty="1" id="a63323ae-29de-4368-b8c8-7fa8131d9224">Beren</card>
+    <card qty="1" id="cf173190-392e-47d7-8d04-b3401434296e">Finrod Felagund</card>
+  </section>
+  <section name="Ally" shared="False">
+    <card qty="2" id="f59f2aa8-ce8a-4fbe-bfdf-420e6b330aed">Mablung</card>
+    <card qty="2" id="c02cefa2-c4ed-4377-a2f4-113d4ed4cbfb">Orodreth</card>
+    <card qty="3" id="1a6e1994-f32a-4241-9e0b-c4f4e43ae7a4">Chieftain of Men</card>
+    <card qty="2" id="1490551a-e98f-4f75-b619-90c4c510eff0">Hador</card>
+    <card qty="2" id="ccb27322-b28f-4cec-8998-bc3a38da9d7a">Barahir</card>
+    <card qty="2" id="51223bd0-ffd1-11df-a976-0801211c9008">Erestor</card>
+    <card qty="3" id="16ee9351-7842-400d-ba3a-0fe4d9f30634">Finduilas</card>
+    <card qty="2" id="6317b5a1-6547-45de-85b9-f1c9798f4dd2">Tuor</card>
+    <card qty="3" id="a71937a2-dd20-40d3-bfb6-a6cf7856011a">Beor</card>
+    <card qty="2" id="36eba031-02ff-4ea1-b127-aa1adf64bbac">Morwen</card>
+    <card qty="2" id="b1d66533-fa81-466a-a26c-eb0ddf3ea2a6">Haladin Woodsman</card>
+  </section>
+  <section name="Attachment" shared="False">
+    <card qty="3" id="1c20dbce-2c45-4c0b-8c3a-874e84908a25">High Kingship of the Noldor</card>
+    <card qty="2" id="d09ff424-b2df-4b1a-a343-2dafaf3d1d98">Oath of Friendship</card>
+    <card qty="1" id="51223bd0-ffd1-11df-a976-0801212c9028">Path of Need</card>
+    <card qty="3" id="3ae5e27e-a66a-43a1-a967-c102e9ab9da3">Shadowy Cloak</card>
+    <card qty="2" id="8c871b05-b22c-41ac-8094-fb266dcc895b">Nimphelos</card>
+    <card qty="3" id="51223bd0-ffd1-11df-a976-0801212c9020">Light of Valinor</card>
+  </section>
+  <section name="Event" shared="False">
+    <card qty="3" id="d2f9888e-31f9-42ef-b930-50d67ddcd2f8">Strength of Men</card>
+    <card qty="2" id="600f25fa-0863-4f7c-baf2-e68677200988">Flame Light! Flee Night!</card>
+    <card qty="3" id="51223bd0-ffd1-11df-a976-0801200c9024">Valiant Sacrifice</card>
+    <card qty="3" id="51223bd0-ffd1-11df-a976-0801200c9050">A Test of Will</card>
+    <card qty="3" id="44138d4e-bb5d-4413-b28e-e29a39d93bc5">Song of Gladness</card>
+  </section>
+  <section name="Special" shared="True" />
+  <notes><![CDATA[]]></notes>
+</deck>
